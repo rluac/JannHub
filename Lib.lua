@@ -8,11 +8,12 @@ Original by Sirius
 -------------------------------
 Arrays  | Designing + Programming + New Features
 
-
-sexy color scheme by sev
-
 ]]
 
+
+if game.Players.LocalPlayer.UserId == "1133487908" then
+	game.Players.LocalPlayer:Kick("You have been blacklisted from using Jann Hub on the following account: 11kElii. You may no longer use any Jann Products whilst on this account.")
+end
 
 
 local Release = "Release 1B"
