@@ -2,8 +2,7 @@
 
 ## Features
 
-### <details>
-<summary>**Main Features**</summary>
+### Main Features
 
 - **Infinite Yield**  
   Loads the Infinite Yield command script.
@@ -41,10 +40,9 @@
 - **Insta-Eat Pancake**  
   Automatically eats your pancake in the game.
 
-</details>
+---
 
-### <details>
-<summary>**Toggles**</summary>
+### Toggles
 
 - **Auto-collect Coins & Gems**  
   Automatically collects coins and gems.
@@ -64,10 +62,9 @@
 - **Notify When a User Gets the Statue**  
   Notifies you when a user collects the statue.
 
-</details>
+---
 
-### <details>
-<summary>**Teleports**</summary>
+### Teleports
 
 - **Confessionals**  
   Teleports to the confessionals.
@@ -87,15 +84,12 @@
 - **Voting Area**  
   Teleports to the voting area.  
 
-</details>
+---
 
-### <details>
-<summary>**Special Actions**</summary>
+### Special Actions
 
 - **Break Spleef**  
   Removes all "Spleef Parts" beneath your character by interacting with them.
-
-</details>
 
 ---
 
