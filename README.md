@@ -1,4 +1,4 @@
-# Jann Hub - The best current script for Total Roblox Drama as of 09/02/2025 18:45. 
+# Jann Hub - The Best Current Script for Total Roblox Drama (as of 09/02/2025 18:45)
 
 ## Features
 
