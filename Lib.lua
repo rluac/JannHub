@@ -2572,7 +2572,7 @@ function Luna:CreateWindow(WindowSettings)
         HomeTabPage.detailsholder.dashboard.Server.UIStroke:Destroy()
 
 		HomeTabPage.icon.ImageLabel.Image = Players:GetUserThumbnailAsync(Players.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
-		HomeTabPage.player.Text.Text = "Hello, [" ..rank.. "] - " ..Players.LocalPlayer.DisplayName
+		HomeTabPage.player.Text.Text = "Hello, [" ..rank.. "] " ..Players.LocalPlayer.DisplayName
 		HomeTabPage.player.user.Text = Players.LocalPlayer.Name
 
 		HomeTabPage.detailsholder.dashboard.Client.Title.Text = (isStudio and "Debugging (Studio)" or identifyexecutor()) or "Your executor does not support the following function: identifyexecutor."
