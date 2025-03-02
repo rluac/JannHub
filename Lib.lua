@@ -2668,8 +2668,6 @@ function Luna:CreateWindow(WindowSettings)
 
 		coroutine.wrap(function()
 			while task.wait() do
-
-
 				-- Players
 				HomeTabPage.detailsholder.dashboard.Server.Players.Value.Text = #Players:GetPlayers().." playing"
 				HomeTabPage.detailsholder.dashboard.Server.MaxPlayers.Value.Text = Players.MaxPlayers.." players can join this server"
