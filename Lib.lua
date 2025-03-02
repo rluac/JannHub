@@ -2547,8 +2547,32 @@ function Luna:CreateWindow(WindowSettings)
         else
             rank = "Member"
         end
+
+        
+        HomeTabPage.detailsholder.dashboard.Client.BackgroundColor3 = Color3.new(37, 35, 44)
+        HomeTabPage.detailsholder.dashboard.Server.BackgroundColor3 = Color3.new(37, 35, 44)
+        HomeTabPage.detailsholder.dashboard.Friends.BackgroundColor3 = Color3.new(37, 35, 44)
+        HomeTabPage.detailsholder.dashboard.Discord.BackgroundColor3 = Color3.new(37, 35, 44)
+
+        HomeTabPage.detailsholder.dashboard.Client.Transparency = 0.2
+        HomeTabPage.detailsholder.dashboard.Server.Transparency = 0.2
+        HomeTabPage.detailsholder.dashboard.Friends.Transparency = 0.2
+        HomeTabPage.detailsholder.dashboard.Discord.Transparency = 0.2
+
+        HomeTabPage.detailsholder.dashboard.Client.UIGradient:Destroy()
+        HomeTabPage.detailsholder.dashboard.Client.UIStroke:Destroy()
+
+        HomeTabPage.detailsholder.dashboard.Discord.UIGradient:Destroy()
+        HomeTabPage.detailsholder.dashboard.Discord.UIStroke:Destroy()
+
+        HomeTabPage.detailsholder.dashboard.Friends.UIGradient:Destroy()
+        HomeTabPage.detailsholder.dashboard.Friends.UIStroke:Destroy()
+
+        HomeTabPage.detailsholder.dashboard.Server.UIGradient:Destroy()
+        HomeTabPage.detailsholder.dashboard.Server.UIStroke:Destroy()
+
 		HomeTabPage.icon.ImageLabel.Image = Players:GetUserThumbnailAsync(Players.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
-		HomeTabPage.player.Text.Text = "Hello, [" ..rank.. "] " ..Players.LocalPlayer.DisplayName
+		HomeTabPage.player.Text.Text = "Hello, [" ..rank.. "] - " ..Players.LocalPlayer.DisplayName
 		HomeTabPage.player.user.Text = Players.LocalPlayer.Name
 
 		HomeTabPage.detailsholder.dashboard.Client.Title.Text = (isStudio and "Debugging (Studio)" or identifyexecutor()) or "Your executor does not support the following function: identifyexecutor."
@@ -2666,28 +2690,6 @@ function Luna:CreateWindow(WindowSettings)
 		-- Stolen From Sirius Stuff ends here
 
 	end
-
-    HomeTabPage.detailsholder.dashboard.Client.BackgroundColor3 = Color3.new(37, 35, 44)
-    HomeTabPage.detailsholder.dashboard.Server.BackgroundColor3 = Color3.new(37, 35, 44)
-    HomeTabPage.detailsholder.dashboard.Friends.BackgroundColor3 = Color3.new(37, 35, 44)
-    HomeTabPage.detailsholder.dashboard.Discord.BackgroundColor3 = Color3.new(37, 35, 44)
-
-    HomeTabPage.detailsholder.dashboard.Client.Transparency = 0.2
-    HomeTabPage.detailsholder.dashboard.Server.Transparency = 0.2
-    HomeTabPage.detailsholder.dashboard.Friends.Transparency = 0.2
-    HomeTabPage.detailsholder.dashboard.Discord.Transparency = 0.2
-
-    HomeTabPage.detailsholder.dashboard.Client.UIGradient:Destroy()
-    HomeTabPage.detailsholder.dashboard.Client.UIStroke:Destroy()
-
-    HomeTabPage.detailsholder.dashboard.Discord.UIGradient:Destroy()
-    HomeTabPage.detailsholder.dashboard.Discord.UIStroke:Destroy()
-
-    HomeTabPage.detailsholder.dashboard.Friends.UIGradient:Destroy()
-    HomeTabPage.detailsholder.dashboard.Friends.UIStroke:Destroy()
-
-    HomeTabPage.detailsholder.dashboard.Server.UIGradient:Destroy()
-    HomeTabPage.detailsholder.dashboard.Server.UIStroke:Destroy()
 
 	function Window:CreateTab(TabSettings)
 
