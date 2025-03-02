@@ -2561,28 +2561,6 @@ function Luna:CreateWindow(WindowSettings)
 			end
 		end
 
-        HomeTabPage.detailsholder.Dashboard.Client.BackgroundColor3 = Color3.new(37, 35, 44)
-        HomeTabPage.detailsholder.Dashboard.Server.BackgroundColor3 = Color3.new(37, 35, 44)
-        HomeTabPage.detailsholder.Dashboard.Friends.BackgroundColor3 = Color3.new(37, 35, 44)
-        HomeTabPage.detailsholder.Dashboard.Discord.BackgroundColor3 = Color3.new(37, 35, 44)
-
-        HomeTabPage.detailsholder.Dashboard.Client.Transparency = 0.2
-        HomeTabPage.detailsholder.Dashboard.Server.Transparency = 0.2
-        HomeTabPage.detailsholder.Dashboard.Friends.Transparency = 0.2
-        HomeTabPage.detailsholder.Dashboard.Discord.Transparency = 0.2
-
-        HomeTabPage.detailsholder.Dashboard.Client.UIGradient:Destroy()
-        HomeTabPage.detailsholder.Dashboard.Client.UIStroke:Destroy()
-
-        HomeTabPage.detailsholder.Dashboard.Discord.UIGradient:Destroy()
-        HomeTabPage.detailsholder.Dashboard.Discord.UIStroke:Destroy()
-
-        HomeTabPage.detailsholder.Dashboard.Friends.UIGradient:Destroy()
-        HomeTabPage.detailsholder.Dashboard.Friends.UIStroke:Destroy()
-
-        HomeTabPage.detailsholder.Dashboard.Server.UIGradient:Destroy()
-        HomeTabPage.detailsholder.Dashboard.Server.UIStroke:Destroy()
-
 		-- Stolen From Sirius Stuff Begins Here
 
 		HomeTabPage.detailsholder.dashboard.Discord.Interact.MouseButton1Click:Connect(function()
@@ -2688,6 +2666,28 @@ function Luna:CreateWindow(WindowSettings)
 		-- Stolen From Sirius Stuff ends here
 
 	end
+
+    HomeTabPage.detailsholder.dashboard.Client.BackgroundColor3 = Color3.new(37, 35, 44)
+    HomeTabPage.detailsholder.dashboard.Server.BackgroundColor3 = Color3.new(37, 35, 44)
+    HomeTabPage.detailsholder.dashboard.Friends.BackgroundColor3 = Color3.new(37, 35, 44)
+    HomeTabPage.detailsholder.dashboard.Discord.BackgroundColor3 = Color3.new(37, 35, 44)
+
+    HomeTabPage.detailsholder.dashboard.Client.Transparency = 0.2
+    HomeTabPage.detailsholder.dashboard.Server.Transparency = 0.2
+    HomeTabPage.detailsholder.dashboard.Friends.Transparency = 0.2
+    HomeTabPage.detailsholder.dashboard.Discord.Transparency = 0.2
+
+    HomeTabPage.detailsholder.dashboard.Client.UIGradient:Destroy()
+    HomeTabPage.detailsholder.dashboard.Client.UIStroke:Destroy()
+
+    HomeTabPage.detailsholder.dashboard.Discord.UIGradient:Destroy()
+    HomeTabPage.detailsholder.dashboard.Discord.UIStroke:Destroy()
+
+    HomeTabPage.detailsholder.dashboard.Friends.UIGradient:Destroy()
+    HomeTabPage.detailsholder.dashboard.Friends.UIStroke:Destroy()
+
+    HomeTabPage.detailsholder.dashboard.Server.UIGradient:Destroy()
+    HomeTabPage.detailsholder.dashboard.Server.UIStroke:Destroy()
 
 	function Window:CreateTab(TabSettings)
 
