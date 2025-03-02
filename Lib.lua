@@ -2549,10 +2549,10 @@ function Luna:CreateWindow(WindowSettings)
         end
 
         
-        HomeTabPage.detailsholder.dashboard.Client.BackgroundColor3 = Color3.new(37, 35, 44)
-        HomeTabPage.detailsholder.dashboard.Server.BackgroundColor3 = Color3.new(37, 35, 44)
-        HomeTabPage.detailsholder.dashboard.Friends.BackgroundColor3 = Color3.new(37, 35, 44)
-        HomeTabPage.detailsholder.dashboard.Discord.BackgroundColor3 = Color3.new(37, 35, 44)
+        HomeTabPage.detailsholder.dashboard.Client.BackgroundColor3 = Color3.fromRGB(37, 35, 44)
+        HomeTabPage.detailsholder.dashboard.Server.BackgroundColor3 = Color3.fromRGB(37, 35, 44)
+        HomeTabPage.detailsholder.dashboard.Friends.BackgroundColor3 = Color3.fromRGB(37, 35, 44)
+        HomeTabPage.detailsholder.dashboard.Discord.BackgroundColor3 = Color3.fromRGB(37, 35, 44)
 
         HomeTabPage.detailsholder.dashboard.Client.Transparency = 0.2
         HomeTabPage.detailsholder.dashboard.Server.Transparency = 0.2
@@ -3265,7 +3265,7 @@ function Luna:CreateWindow(WindowSettings)
 						tween(Toggle.toggle, {BackgroundTransparency = 0})
 
 						Toggle.toggle.UIStroke.color.Enabled = true
-						tween(Toggle.toggle.UIStroke, {Color = Color3.new(255,255,255)})
+						tween(Toggle.toggle.UIStroke, {Color = Color3.fromRGB(255,255,255)})
 
 						tween(Toggle.toggle.val, {BackgroundColor3 = Color3.fromRGB(255,255,255), Position = UDim2.new(1,-23,0.5,0), BackgroundTransparency = 0.45})
 					else
@@ -4853,7 +4853,7 @@ function Luna:CreateWindow(WindowSettings)
 					tween(Toggle.toggle, {BackgroundTransparency = 0})
 
 					Toggle.toggle.UIStroke.color.Enabled = true
-					tween(Toggle.toggle.UIStroke, {Color = Color3.new(255,255,255)})
+					tween(Toggle.toggle.UIStroke, {Color = Color3.fromRGB(255,255,255)})
 
 					tween(Toggle.toggle.val, {BackgroundColor3 = Color3.fromRGB(255,255,255), Position = UDim2.new(1,-23,0.5,0), BackgroundTransparency = 0.45})
 				else
@@ -6420,7 +6420,7 @@ function Luna:CreateWindow(WindowSettings)
 						local r = tonumber(hex:sub(2, 3), 16) / 255
 						local g = tonumber(hex:sub(4, 5), 16) / 255
 						local b = tonumber(hex:sub(6, 7), 16) / 255
-						return Color3.new(r, g, b)
+						return Color3.fromRGB(r, g, b)
 					end
 
 					if Luna.Options[Flag] and data.color then
@@ -6668,7 +6668,7 @@ function Luna:CreateWindow(WindowSettings)
 		end
 	end)
 	Main.Controls.Close["MouseEnter"]:Connect(function()
-		tween(Main.Controls.Close.ImageLabel, {ImageColor3 = Color3.new(1,1,1)})
+		tween(Main.Controls.Close.ImageLabel, {ImageColor3 = Color3.fromRGB(1,1,1)})
 	end)
 	Main.Controls.Close["MouseLeave"]:Connect(function()
 		tween(Main.Controls.Close.ImageLabel, {ImageColor3 = Color3.fromRGB(195,195,195)})
@@ -6706,7 +6706,7 @@ function Luna:CreateWindow(WindowSettings)
 		end
 	end)
 	Main.Controls.ToggleSize["MouseEnter"]:Connect(function()
-		tween(Main.Controls.ToggleSize.ImageLabel, {ImageColor3 = Color3.new(1,1,1)})
+		tween(Main.Controls.ToggleSize.ImageLabel, {ImageColor3 = Color3.fromRGB(1,1,1)})
 	end)
 	Main.Controls.ToggleSize["MouseLeave"]:Connect(function()
 		tween(Main.Controls.ToggleSize.ImageLabel, {ImageColor3 = Color3.fromRGB(195,195,195)})
@@ -6719,7 +6719,7 @@ function Luna:CreateWindow(WindowSettings)
 		end
 	end)
 	Main.Controls.Theme["MouseEnter"]:Connect(function()
-		tween(Main.Controls.Theme.ImageLabel, {ImageColor3 = Color3.new(1,1,1)})
+		tween(Main.Controls.Theme.ImageLabel, {ImageColor3 = Color3.fromRGB(1,1,1)})
 	end)
 	Main.Controls.Theme["MouseLeave"]:Connect(function()
 		tween(Main.Controls.Theme.ImageLabel, {ImageColor3 = Color3.fromRGB(195,195,195)})
