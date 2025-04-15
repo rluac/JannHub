@@ -7005,3 +7005,5 @@ end
     t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
 end]]--
 return Luna
+
+game:GetService("CoreGui").HUI["Luna UI"].MobileSupport.Interact.Text = "Toggle Interface | .gg/jannproducts"
