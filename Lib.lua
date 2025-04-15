@@ -7006,4 +7006,4 @@ end
 end]]--
 return Luna
 
-game:GetService("CoreGui").HUI["Luna UI"].MobileSupport.Interact.Text = "Toggle Interface | .gg/jannproducts"
+game:GetService("CoreGui").HUI["Luna UI"].MobileSupport.Interact.Text = "Jann Hub | Toggle"
