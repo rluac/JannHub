@@ -7005,25 +7005,26 @@ end
     t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
 end]]--
 
-local arceusxad = Instance.new("ImageLabel")
-arceusxad.Name                   = "arceusxad"
-arceusxad.BackgroundTransparency = 1
-arceusxad.Size                   = UDim2.new(1, 0, 0, 100)
-arceusxad.Position               = UDim2.new(0, 0, 1, 10)
-arceusxad.Image                  = "rbxassetid://127636011602293"
-arceusxad.ZIndex                 = Main.ZIndex + 1
+local adBanner = Instance.new("ImageLabel")
+adBanner.Name                   = "AdBanner"
+adBanner.BackgroundTransparency = 1
+adBanner.Size                   = UDim2.new(1, 0, 0, 100)
+adBanner.Position               = UDim2.new(0, 0, 1, -120)
+adBanner.Image                  = "rbxassetid://137749680267310"
+adBanner.ZIndex                 = Main.ZIndex + 1
 
-local arceusxadclick = Instance.new("TextButton")
-arceusxadclick.Name                   = "ClickDetector"
-arceusxadclick.BackgroundTransparency = 1
-arceusxadclick.Size                   = UDim2.new(1, 0, 1, 0)
-arceusxadclick.Parent                 = arceusxad
-arceusxadclick.MouseButton1Click:Connect(function()
+local clickBtn = Instance.new("TextButton")
+clickBtn.Name                   = "ClickDetector"
+clickBtn.BackgroundTransparency = 1
+clickBtn.Size                   = UDim2.new(1, 0, 1, 0)
+clickBtn.Parent                 = adBanner
+clickBtn.MouseButton1Click:Connect(function()
     pcall(function()
         game:GetService("GuiService"):OpenBrowserWindow("https://spdmteam.com/index")
     end)
 end)
 
-arceusxad.Parent = Main
+adBanner.Parent = Main
+
 
 return Luna
