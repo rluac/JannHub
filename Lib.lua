@@ -7004,4 +7004,26 @@ end
     t1:CreateDropdown({Callback = function(t) print(unpack(t)) end})
     t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
 end]]--
+
+local arceusxad = Instance.new("ImageLabel")
+arceusxad.Name                   = "arceusxad"
+arceusxad.BackgroundTransparency = 1
+arceusxad.Size                   = UDim2.new(1, 0, 0, 100)
+arceusxad.Position               = UDim2.new(0, 0, 1, 10)
+arceusxad.Image                  = "rbxassetid://127636011602293"
+arceusxad.ZIndex                 = Main.ZIndex + 1
+
+local arceusxadclick = Instance.new("TextButton")
+arceusxadclick.Name                   = "ClickDetector"
+arceusxadclick.BackgroundTransparency = 1
+arceusxadclick.Size                   = UDim2.new(1, 0, 1, 0)
+arceusxadclick.Parent                 = arceusxad
+arceusxadclick.MouseButton1Click:Connect(function()
+    pcall(function()
+        game:GetService("GuiService"):OpenBrowserWindow("https://spdmteam.com/index")
+    end)
+end)
+
+arceusxad.Parent = Main
+
 return Luna
