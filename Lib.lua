@@ -7005,19 +7005,20 @@ end
     t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
 end]]--
 
+
 local adBanner = Instance.new("ImageLabel")
-adBanner.Name                   = "AdBanner"
+adBanner.Name = "AdBanner"
 adBanner.BackgroundTransparency = 1
-adBanner.Size                   = UDim2.new(1, 0, 0, 100)
-adBanner.Position               = UDim2.new(0, 0, 1, -120)
-adBanner.Image                  = "rbxassetid://137749680267310"
-adBanner.ZIndex                 = Main.ZIndex + 1
+adBanner.Size = UDim2.new(1, 0, 0, 80)
+adBanner.Position = UDim2.new(0, 0, 0, 0)
+adBanner.Image = "rbxassetid://137749680267310"
+adBanner.ZIndex = Main.ZIndex + 1
 
 local clickBtn = Instance.new("TextButton")
-clickBtn.Name                   = "ClickDetector"
+clickBtn.Name = "ClickDetector"
 clickBtn.BackgroundTransparency = 1
-clickBtn.Size                   = UDim2.new(1, 0, 1, 0)
-clickBtn.Parent                 = adBanner
+clickBtn.Size = UDim2.new(1, 0, 1, 0)
+clickBtn.Parent = adBanner
 clickBtn.MouseButton1Click:Connect(function()
     pcall(function()
         game:GetService("GuiService"):OpenBrowserWindow("https://spdmteam.com/index")
@@ -7025,6 +7026,5 @@ clickBtn.MouseButton1Click:Connect(function()
 end)
 
 adBanner.Parent = Main
-
 
 return Luna
