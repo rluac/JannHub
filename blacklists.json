@@ -1,1 +1,26 @@
-
+{
+  "blacklistedHWIDs": [
+    "f88071d5-234a-4101-861d-9e6c101f61d9",
+    "624797a1-0b7d-46b3-9ed2-5e93c0f186e4",
+    "0b77d09e-a428-43ae-a664-64dc69feb8b9",
+    "e7e28981-407e-4b1b-b2f3-d0b9e2c55454",
+    "80e56303-ea6e-4aac-91f5-86f50f0b574e",
+    "aaec3553-ce01-4376-bd7b-28f4d6c1a072",
+    "0485fa7c-562c-4066-b966-3f999cdc0ff7",
+    "d1d91581-1075-47ac-b038-e16c14cf9e71",
+    "a12cbb27-e4d2-4b77-ae99-fccc0975ebe5",
+    "70457c91-4e3c-43b1-af3e-a0ccabb659e9",
+    "6eab6c4c-8fcb-42f1-8eb7-620cf0945035",
+    "50DCB79F-554C-4BEB-A952-2A80308FC4D1",
+    "92b5e600-3955-46d4-a107-fc8dbe853cdd",
+    "c4aa49bf-bb41-4b36-82a8-57be1ebe6895",
+    "f9d33a62-99a7-4c3f-a797-b65bf37422ba",
+    "2931e6d8-753a-4121-9972-f51f92fdf625",
+    "C102C01F-4B73-4ACE-B7C3-EC418F9FA557",
+    "a6c830dd-3528-4216-8719-1ea8f2db35ff",
+    "66423f97-fef9-4e50-9b60-cd3aaee74ec1",
+    "5e88a545-99c4-4acf-afc4-61ddcae207ce",
+    "D5436D4E-25D5-426D-B271-5DAFD5D119E4",
+    "3b79ecda-6e14-492c-ac54-ef4457a4eb0f"
+  ]
+}
