@@ -1,4 +1,4 @@
-# Jann Hub - The Best Current Script for Total Roblox Drama (as of 09/02/2025 18:45)
+# Jann Hub - a Total Roblox Drama script
 
 ## Features
 
@@ -107,19 +107,13 @@
 **Welcome to the FAQ, here we will add information here.**
 
 - **Q: Will we branch into other games?**  
-  A: Soon, there isn't a confirmed date and it's not confirmed at all.
+  A: Most likely not.
 
 - **Q: Why can't you add my idea?**  
   A: We could be busy, there's no possible way, or we are just lazy.
-
-- **Q: How do I get a key?**  
-  A: Get a key from here: [https://keyrblx.com/getkey/JannHub](https://keyrblx.com/getkey/JannHub). Once you have joined the discord server, go back to the page and wait 30 seconds. It should then allow you to press 'Continue' and you will get a key. Please note if any popups show, just close them and go back to the key site.
 
 - **Q: How do I make my character my own avatar?**  
   A: Wait until it's free gender selection, when the timer hits 00:03, click the 3 lines and press **Return To Lobby**, then wait 20 seconds & join back, then execute the script and buy your character.
 
 - **Q: Why won't the UI Load?**  
-  A: It's because we're often adding new features, however sometimes there are errors and it causes the UI to not load.
-
-- **Q: Why won't a feature work?**  
-  A: We aren't that good of script developers, so some features won't work.
+  A: The script may be experiencing errors, your executor may be experiencing errors. Join the [discord](https://discord.gg/vGGGnph6Ba)
